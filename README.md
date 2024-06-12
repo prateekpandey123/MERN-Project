@@ -1,5 +1,3 @@
-Project Title: MERN Stack Application
-
 Project Overview
 Our MERN Stack Application is a full-fledged web application designed to showcase the powerful capabilities of the MERN stack, which includes MongoDB, Express.js, React, and Node.js. This project serves as a template and learning resource for developers looking to build modern, efficient, and scalable web applications.
 
