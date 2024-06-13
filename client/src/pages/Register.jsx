@@ -57,7 +57,7 @@ export const Register = () => {
 
         setUser({ username: "", email: "", phone: "", password: "" });
         toast.success("Registration Successfully");
-        navigate("/login");
+        navigate("/");
       } else {
         toast.error(
           res_data.extraDetails ? res_data.extraDetails : res_data.message
@@ -87,7 +87,7 @@ export const Register = () => {
                 <br />
                 <form onSubmit={handleSubmit}>
                   <div>
-                    <label htmlFor="username">usename</label>
+                    <label htmlFor="username">username</label>
                     <input
                       type="text"
                       name="username"
