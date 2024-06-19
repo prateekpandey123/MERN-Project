@@ -9,10 +9,6 @@ const loginSchema = require("../validators/login-validator");
 
 const authMiddleware = require("../middleware/auth-middleware");
 
-// router.route("/").get(authcontroller.home);
-
-// router.route("/register").get(authcontroller.register);
-
 router.route("/register").post(validate(signupSchema), authcontroller.register);
 router.route("/login").post(validate(loginSchima), authcontroller.login);
 
